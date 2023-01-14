@@ -1,7 +1,6 @@
 import React from "react";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="my-10">
