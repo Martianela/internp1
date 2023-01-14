@@ -25,24 +25,24 @@ const Footer = () => {
           <ul className="flex gap-10 justify-center my-10">
             {" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <Link to="www.instagram.com">
+              <a href="https://www.instagram.com/">
                 <BsInstagram size={25} />
-              </Link>
+              </a>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <Link to="www.instagram.com">
+              <a href="https://www.twitter.com">
                 <BsTwitter size={25} />
-              </Link>
+              </a>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <Link to="www.instagram.com">
+              <a href="https://www.linkedin.com">
                 <FaLinkedinIn size={25} />
-              </Link>
+              </a>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <Link to="www.instagram.com">
+              <a href="https://www.facebook.com">
                 <FaFacebookF size={25} />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
