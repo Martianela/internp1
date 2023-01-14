@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -15,14 +16,14 @@ const Home = ({ setPlace }) => {
         {items.map((item) => {
           return (
             <>
-              <a
+              <Link
                 onClick={() => {
                   setPlace(item.id);
                 }}
-                href={`/${item.title}`}
+                to={`/${item.title}`}
               >
                 <Card key={item.id} item={item} />
-              </a>
+              </Link>
             </>
           );
         })}

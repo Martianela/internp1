@@ -1,6 +1,7 @@
 import React from "react";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="my-10">
@@ -24,24 +25,24 @@ const Footer = () => {
           <ul className="flex gap-10 justify-center my-10">
             {" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <a href="www.instagram.com">
+              <Link to="www.instagram.com">
                 <BsInstagram size={25} />
-              </a>
+              </Link>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <a href="www.instagram.com">
+              <Link to="www.instagram.com">
                 <BsTwitter size={25} />
-              </a>
+              </Link>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <a href="www.instagram.com">
+              <Link to="www.instagram.com">
                 <FaLinkedinIn size={25} />
-              </a>
+              </Link>
             </li>{" "}
             <li className="bg-gray-700 rounded-[100%] text-center p-2 text-white">
-              <a href="www.instagram.com">
+              <Link to="www.instagram.com">
                 <FaFacebookF size={25} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
