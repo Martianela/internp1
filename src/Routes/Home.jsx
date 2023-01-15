@@ -11,7 +11,7 @@ const Home = ({ setPlace }) => {
     <div>
       <Navbar />
 
-      <h1 className="text-2xl font-semibold  my-3">Beaches</h1>
+      <h1 className="text-[35px] font-bold my-3 text-black/80">Beaches</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 sm:px-0">
         {items.map((item) => {
           return (

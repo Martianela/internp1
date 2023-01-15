@@ -4,18 +4,22 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="my-10">
-      <div className="sm:flex text-center sm:text-left">
-        <div className="sm:w-[50%]">
+      <div className=" flex flex-col gap-10 sm:flex-row text-center sm:text-left">
+        <div className="sm:w-[40%]">
           <h1 className="text-[50px] font-medium my-5">🆁🅰</h1>{" "}
-          <ul className="flex flex-col gap-2 ">
-            <li>
+          <ul className="flex flex-col gap-4  text-lg text-gray-600">
+            <li className="hover:underline">
               <a href="/">Home</a>
             </li>{" "}
             <li>
-              <a href="/">About</a>
+              <a className="hover:underline" href="/">
+                About
+              </a>
             </li>{" "}
             <li>
-              <a href="/">Profile</a>
+              <a className="hover:underline" href="/">
+                Profile
+              </a>
             </li>
           </ul>
         </div>

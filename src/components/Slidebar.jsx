@@ -4,19 +4,19 @@ const Slidebar = () => {
   const sliderData = [
     {
       id: 1,
-      url: "https://cdn.pixabay.com/photo/2020/04/13/08/32/zzz-5037255__340.jpg",
-    },
-    {
-      id: 2,
       url: "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
     },
     {
+      id: 2,
+      url: "https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581__340.jpg",
+    },
+    {
       id: 3,
-      url: "https://cdn.pixabay.com/photo/2017/08/28/17/20/alaska-2690478__340.jpg",
+      url: "https://cdn.pixabay.com/photo/2017/10/10/07/48/beach-2836300__340.jpg",
     },
     {
       id: 4,
-      url: "https://cdn.pixabay.com/photo/2019/08/02/02/02/beach-4378548__340.jpg",
+      url: "https://cdn.pixabay.com/photo/2017/08/01/01/17/beach-2562563__340.jpg",
     },
   ];
   const [slide, setSlide] = useState(0);
