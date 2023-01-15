@@ -28,7 +28,7 @@ const Home = ({ setPlace }) => {
           );
         })}
       </div>
-      <h1 className="my-5 text-3xl font-bold text-gray-700">Top placess</h1>
+      <h1 className="mt-10 text-3xl font-bold text-gray-700">Top places</h1>
       <Slidebar />
       <Footer />
     </div>

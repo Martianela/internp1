@@ -30,7 +30,7 @@ const Slidebar = () => {
   };
 
   return (
-    <div className=" mx-auto px-4 py-16 relative flex justify-center max-w-[800px]  w-full items-center">
+    <div className=" mx-auto px-4 py-10 relative flex justify-center max-w-[800px]  w-full items-center">
       <BsArrowLeftSquareFill
         onClick={prevSlide}
         className="absolute top-[50%] text-3xl text-white cursor-pointer left-8"
